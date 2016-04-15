@@ -1,0 +1,3 @@
+[submodule "aristocrat"]
+	path = aristocrat
+	url = https://github.com/MMurlyka/lp-aristocrat.git
