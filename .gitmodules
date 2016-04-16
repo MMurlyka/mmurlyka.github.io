@@ -1,3 +1,6 @@
 [submodule "aristocrat"]
 	path = aristocrat
 	url = https://github.com/MMurlyka/lp-aristocrat.git
+[submodule "pallet-racking-smart"]
+	path = pallet-racking-smart
+	url = https://github.com/MMurlyka/lp-pallet-racking-smart.git
