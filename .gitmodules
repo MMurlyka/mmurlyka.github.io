@@ -7,3 +7,6 @@
 [submodule "natural-health-center"]
 	path = natural-health-center
 	url = https://github.com/MMurlyka/lp-natural-health-center.git
+[submodule "white-and-smile"]
+	path = white-and-smile
+	url = https://github.com/MMurlyka/lp-white-and-smile.git
