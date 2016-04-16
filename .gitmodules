@@ -4,3 +4,6 @@
 [submodule "pallet-racking-smart"]
 	path = pallet-racking-smart
 	url = https://github.com/MMurlyka/lp-pallet-racking-smart.git
+[submodule "natural-health-center"]
+	path = natural-health-center
+	url = https://github.com/MMurlyka/lp-natural-health-center.git
