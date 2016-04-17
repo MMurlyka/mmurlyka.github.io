@@ -16,3 +16,6 @@
 [submodule "international-surf-camp"]
 	path = international-surf-camp
 	url = https://github.com/MMurlyka/lp-international-surf-camp.git
+[submodule "frozen-flowers"]
+	path = frozen-flowers
+	url = https://github.com/MMurlyka/lp-frozen-flowers.git
