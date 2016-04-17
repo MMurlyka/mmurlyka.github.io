@@ -10,3 +10,6 @@
 [submodule "white-and-smile"]
 	path = white-and-smile
 	url = https://github.com/MMurlyka/lp-white-and-smile.git
+[submodule "earnings-on-the-land"]
+	path = earnings-on-the-land
+	url = https://github.com/MMurlyka/lp-earnings-on-the-land.git
