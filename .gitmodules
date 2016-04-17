@@ -13,3 +13,6 @@
 [submodule "earnings-on-the-land"]
 	path = earnings-on-the-land
 	url = https://github.com/MMurlyka/lp-earnings-on-the-land.git
+[submodule "international-surf-camp"]
+	path = international-surf-camp
+	url = https://github.com/MMurlyka/lp-international-surf-camp.git
