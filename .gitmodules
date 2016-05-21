@@ -19,3 +19,6 @@
 [submodule "frozen-flowers"]
 	path = frozen-flowers
 	url = https://github.com/MMurlyka/lp-frozen-flowers.git
+[submodule "stk-potolki"]
+	path = stk-potolki
+	url = https://github.com/MMurlyka/lp-stk-potolki.git
