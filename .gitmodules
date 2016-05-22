@@ -22,3 +22,6 @@
 [submodule "stk-potolki"]
 	path = stk-potolki
 	url = https://github.com/MMurlyka/lp-stk-potolki.git
+[submodule "factum-web"]
+	path = factum-web
+	url = https://github.com/MMurlyka/lp-factum-web.git
