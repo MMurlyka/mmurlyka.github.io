@@ -28,3 +28,6 @@
 [submodule "intorno-tailoring"]
 	path = intorno-tailoring
 	url = https://github.com/MMurlyka/lp-intorno-tailoring.git
+[submodule "mirbis-seminar"]
+	path = mirbis-seminar
+	url = https://github.com/MMurlyka/lp-mirbis-seminar
