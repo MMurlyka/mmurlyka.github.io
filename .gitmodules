@@ -31,3 +31,6 @@
 [submodule "mirbis-seminar"]
 	path = mirbis-seminar
 	url = https://github.com/MMurlyka/lp-mirbis-seminar
+[submodule "point-lighthouses"]
+	path = point-lighthouses
+	url = https://github.com/MMurlyka/lp-point-lighthouses
