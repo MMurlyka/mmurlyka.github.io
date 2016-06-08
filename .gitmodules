@@ -25,3 +25,6 @@
 [submodule "factum-web"]
 	path = factum-web
 	url = https://github.com/MMurlyka/lp-factum-web.git
+[submodule "intorno-tailoring"]
+	path = intorno-tailoring
+	url = https://github.com/MMurlyka/lp-intorno-tailoring.git
