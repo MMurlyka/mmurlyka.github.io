@@ -8,6 +8,15 @@ $(document).ready(function() {
 			md = 992,
 			sm = 768,
 			xs = 480
+
+	$(".slider-header-banner").slick({
+		prevArrow: prevArrow,
+		nextArrow: nextArrow,
+		fade: true,
+		autoplay: true,
+		autoplaySpeed: 1000
+	});
+
 	$(".slider-gallery").slick({
 		slidesToShow: 4,
 		dots: true,
