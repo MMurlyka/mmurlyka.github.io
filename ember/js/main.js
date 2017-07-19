@@ -13,8 +13,7 @@ $(document).ready(function() {
 		prevArrow: prevArrow,
 		nextArrow: nextArrow,
 		fade: true,
-		autoplay: true,
-		autoplaySpeed: 1000
+		autoplay: true
 	});
 
 	$(".slider-gallery").slick({
