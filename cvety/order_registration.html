@@ -1,0 +1,1232 @@
+<!DOCTYPE html>
+<html class="">
+
+<head>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>FLOWERS</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta content="FLOWERS" name="author">
+    <meta content="FLOWERS" name="description">
+    <meta content="FLOWERS" name="keywords">
+    <link rel="stylesheet" media="screen" type="text/css" title="Style" href="css/main.css"/>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <link href="http://allfont.ru/allfont.css?fonts=playfair-display-sc-italic" rel="stylesheet" type="text/css" />
+    <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+
+
+
+    <noscript>
+        <style>
+            .st-accordion ul li{
+                height:auto;
+            }
+            .st-accordion ul li > a span{
+                visibility:hidden;
+            }
+        </style>
+    </noscript>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover();
+        });
+    </script>
+
+    <!-- Скрипт на языке JavaScript -->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            // Инициализирует карусель
+            $(".start-slide").click(function(){
+                $("#myCarousel2").carousel('cycle');
+            });
+            // Останавливает процесс автоматической смены слайдов карусели
+            $(".pause-slide").click(function(){
+                $("#myCarousel2").carousel('pause');
+            });
+            // Осуществляет переход на предыдущий слайд
+            $(".prev-slide").click(function(){
+                $("#myCarousel2").carousel('prev');
+            });
+            // Осуществляет переход на следующий слайд
+            $(".next-slide").click(function(){
+                $("#myCarousel2").carousel('next');
+            });
+
+        });
+    </script>
+
+
+    <script type="text/javascript" src="js/jquery.accordion.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript">
+        $(function() {
+
+            $('#st-accordion').accordion({
+                oneOpenedItem	: true
+            });
+
+        });
+    </script>
+
+    <script src="js/modernizr.custom.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/uisearch.js"></script>
+
+    <script type="text/javascript" src="js/moment-with-locales.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap-datetimepicker.min.js"></script>
+
+
+</head>
+<body>
+
+
+<!---header-->
+
+<header>
+<div class="container">
+<div class="row">
+
+<div class="information col-lg-3 col-md-3 col-sm-3 hidden-xs">
+
+
+    <p class="phone_big caret_arrow">+7 (702) 222 07 30<a class="call_back" href="">Перезвонить?</a></p>
+
+    <div class="dropdown">
+        <p>Город доставки:</p>
+
+        <a class="dropdown-toggle city"  href="" data-toggle="dropdown">Москва</a>
+
+        <ul class="dropdown-menu">
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <input class="form-control" type="city" placeholder="Город">
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-6">
+                <input class="form-control" type="" placeholder="Страна">
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+
+                <div class="clearfix">
+                    <span>А</span>
+
+                    <ul>
+                        <li><a href="#">Актау</a></li>
+                        <li><a href="#">Актобе</a></li>
+                        <li><a href="#">Актюбинск</a></li>
+                        <li><a href="#">Алма-Ата</a></li>
+                        <li><a href="#">Алматы</a></li>
+                        <li><a href="#">Аркалык</a></li>
+                        <li><a href="#">Астана</a></li>
+                        <li><a href="#">Атырау</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Б</span>
+                    <ul>
+                        <li><a href="#">Балхаш</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Ж</span>
+                    <ul>
+                        <li><a href="#">Жезказган</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>К</span>
+                    <ul>
+                        <li><a href="#">Караганда</a></li>
+                        <li><a href="#">Кзыл-Орда</a></li>
+                        <li><a href="#">Кокчетав</a></li>
+                        <li><a href="#">Кокшетау</a></li>
+                        <li><a href="#">Костанай</a></li>
+                        <li><a href="#">Кустанай</a></li>
+                        <li><a href="#">Кызылорда</a></li>
+                        <li><a href="#">Кызылорда</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="clearfix">
+                    <span>Л</span>
+                    <ul>
+                        <li><a href="#">Лисаковск</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>П</span>
+                    <ul>
+                        <li><a href="#">Павлодар</a></li>
+                        <li><a href="#">Петропавловск</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Р</span>
+                    <ul>
+                        <li><a href="#">Рудный</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>С</span>
+                    <ul>
+                        <li><a href="#">Сатпаев</a></li>
+                        <li><a href="#">Семей</a></li>
+                        <li><a href="#">Семипалатинск</a></li>
+                        <li><a href="#">Степногорск</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Т</span>
+                    <ul>
+                        <li><a href="#">Талдыкорган</a></li>
+                        <li><a href="#">Талдыкурган</a></li>
+                        <li><a href="#">Тараз</a></li>
+                        <li><a href="#">Темиртау</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>У</span>
+                    <ul>
+                        <li><a href="#">Уральск</a></li>
+                        <li><a href="#">Усть-Каменогорск</a></li>
+                        <li><a href="#">Устькаменогорск</a></li>
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4">
+                <div class="clearfix">
+                    <span>Ч</span>
+                    <ul>
+                        <li><a href="#">Чимкент</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Щ</span>
+                    <ul>
+                        <li><a href="#">Шымкент</a></li>
+                        <li><a href="#">Щучинск</a></li>
+                    </ul>
+                </div>
+
+                <div class="clearfix">
+                    <span>Э</span>
+                    <ul>
+                        <li><a href="#">Экибастуз</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </ul>
+
+
+    </div>
+
+</div>
+
+
+<!--mobile--menu--button-left------>
+
+<div class="hidden-md hidden-lg hidden-sm mobile_button col-xs-2">
+
+<nav class="navbar navbar-default navbar-static">
+<div class="navbar-header">
+
+<button class="navbar-toggle collapsed" data-target="#bs-example-navbar-collapse-1" data-toggle="collapse" type="button">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+</button>
+
+<div id="bs-example-navbar-collapse-1" class="navbar-collapse collapse" style="height: 1px;">
+<ul class="nav navbar-nav">
+<!---mobile-menu-->
+
+<nav class="menu_table mobile_menu hidden-sm hidden-md hidden-lg">
+<ul class="menu_table_drop">
+
+<li class="item">
+    <a class="nav_link arrow_top dropdown-toggle" data-toggle="dropdown" href="">
+        Каталог букетов
+    </a>
+    <ul class="dropdown-menu">
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3 col-xs-12">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+
+
+    </ul>
+</li>
+
+<li class="item giftbox">
+    <a class="nav_link arrow_top dropdown-toggle" data-toggle="dropdown" href="">
+        Вместо цветов
+    </a>
+    <ul class="dropdown-menu container">
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+
+
+    </ul>
+</li>
+<li class="item flower-bouquet">
+    <a class="nav_link arrow_top dropdown-toggle" data-toggle="dropdown" href="">
+        Букеты дня
+    </a>
+    <ul class="dropdown-menu container">
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </div>
+
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+        <div class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </div>
+
+
+
+    </ul>
+</li>
+
+</ul>
+</nav>
+
+
+
+</ul>
+</div>
+
+</nav>
+
+</div>
+<!------->
+
+
+
+<div class="col-lg-6 col-md-6 col-sm-6 col-xs-8">
+    <div class="logo">1-2-flowers</div>
+</div>
+
+<div class="col-lg-3 col-md-3 col-sm-3 hidden-xs">
+    <div class="autocomplete__element">
+        <form action="" method="GET">
+            <div class="input-group">
+                <input class="icon_search form-control input_search" type="text" data-autocomplete-input="" name="text" autocomplete="off"
+                       placeholder="" value="" required="">
+
+            </div>
+        </form>
+    </div>
+    <div class="phone">
+        <a href="">Доставка, оплата, гарантии</a>
+        <a href="">О магазине</a>
+    </div>
+
+
+    <div class="flag dropdown">
+        <a class="rus dropdown-toggle" href="" data-toggle="dropdown"></a>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#">1</a>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+<div  id="sb-search" class=" sb-search autocomplete__element mobile_search hidden-md hidden-sm hidden-lg col-xs-2">
+    <form action="search-form visible" method="GET">
+
+        <input id="search" class="sb-search-input" type="text" name="search" value="" placeholder="Enter">
+        <input class="sb-search-submit" type="submit" value="">
+        <input class="sb-icon-search icon_search form-control" type="text" data-autocomplete-input="" name="text" autocomplete="off"
+               placeholder="" value="" required="">
+
+    </form>
+</div>
+
+<script>
+    new UISearch( document.getElementById( 'sb-search' ) );
+</script>
+
+
+
+
+
+</div>
+</div>
+</header>
+
+
+<nav class="menu_table hidden-xs section_menu main_page_flowers">
+<ul class="menu_table_drop">
+
+<li class="item">
+    <a class="nav_link arrow_top dropdown-toggle" id="toggleMethod4" data-toggle="dropdown" href="">
+        Каталог букетов
+    </a>
+
+    <ul class="dropdown-menu">
+
+
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </ul>
+
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+
+
+    </ul>
+</li>
+
+
+<li class="item giftbox">
+    <a class="nav_link arrow_top dropdown-toggle" data-toggle="dropdown" href="">
+        Вместо цветов
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu_two" aria-expanded="true">
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </ul>
+
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+
+
+    </ul>
+</li>
+
+
+
+<li class="item bouk">
+    <a class="nav_link arrow_top dropdown-toggle flower-bouquet" data-toggle="dropdown" href="">
+        Букеты дня
+    </a>
+
+    <ul class="dropdown-menu dropdown-menu_three" aria-expanded="true">
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Цветы</h4>
+            <li><a href="#">Голландские розы</a></li>
+            <li><a href="#">Розы</a></li>
+
+            <h4>Розы</h4>
+            <li><a href="#">Красные розы</a></li>
+            <li><a href="#">Розовые розы</a></li>
+            <li><a href="#">Желтые розы</a></li>
+            <li><a href="#">Синие розы</a></li>
+            <li><a href="#">Белые розы</a></li>
+            <li><a href="#">Кремовые розы</a></li>
+        </ul>
+
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+        <ul class="col-lg-3 col-md-3 col-sm-3">
+            <h4>Повод</h4>
+            <li><a href="#">Праздник</a></li>
+            <li><a href="#">День Рождения</a></li>
+            <li><a href="#">Свадьба</a></li>
+            <li><a href="#">Похороны</a></li>
+            <li><a href="#">Юбилей</a></li>
+            <li><a href="#">Рождение ребенка</a></li>
+            <li><a href="#">Новоселье</a></li>
+            <li><a href="#">Годовщина</a></li>
+            <li><a href="#">14 февраля</a></li>
+            <li><a href="#">8 марта</a></li>
+        </ul>
+
+
+
+    </ul>
+</li>
+
+</ul>
+</nav>
+
+
+
+
+
+
+
+<!---header-->
+
+
+
+
+<section class="order_registration">
+    <div class="container">
+        <div class="row">
+
+        <div class="col-lg-12 col-sm-12 col-md-12 col-xs-12 order_registration_top">
+            <ul class="menu_page">
+                <li class="menu_page_main">
+                    <a href="/">Главная</a>
+                </li>
+                <li class="menu_page_main">
+                    <a href="/"> > </a>
+                </li>
+                <li class="menu_page_main">
+                   Оформление заказа
+                </li>
+            </ul>
+
+            <h2>Оформление заказа</h2>
+
+
+                <h4>товар</h4>
+                <div class="rose">
+                    <img src="img/rose.png">
+                    <p class="col-lg-7 col-sm-7 col-md-7 col-xs-10">Букет 17 светло-розовых роз в крафте</p>
+                </div>
+
+                <div class="flower_delivery">
+                    <p>Цветы:<span class="medium">15 000</span><span class="ten">тг</span></p>
+                    <p>Доставка:<span>бесплатно</span></p>
+                    <p>Итого:<span class="big_del">15 000</span><span class="ten">тг</span></p>
+                </div>
+
+            </div>
+
+
+
+            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                <h4>Получатель</h4>
+
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label">Имя</label>
+                        <div class="col-sm-7">
+                            <input type="name" class="form-control" placeholder="Имя получателя">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label">Телефон*</label>
+                        <div class="col-sm-7">
+                            <input type="phone" class="form-control" placeholder="Телефон получателя">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label">Адрес:</label>
+                        <div class="col-sm-7">
+                            <textarea type="address" class="form-control form-control_address" placeholder="Куда доставить?" rows="5"></textarea>
+                        </div>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12">
+                <h4>Отправитель</h4>
+
+                <form class="form-horizontal">
+                    <div class="form-group">
+                        <label class="col-sm-5  control-label">Имя</label>
+                        <div class="col-sm-7">
+                            <input type="name" class="form-control" placeholder="Имя получателя">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label">Телефон*</label>
+                        <div class="col-sm-7">
+                            <input type="phone" class="form-control" placeholder="Телефон получателя">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-5 control-label">E-Mail*:</label>
+                        <div class="col-sm-7">
+                            <input type="email" class="form-control" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-10">
+                            <div class="checkbox">
+                                <label>
+                                    <input type="checkbox"> Анонимно
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+                </form>
+
+            </div>
+
+<div class="clearfix"></div>
+
+
+            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 delivery_left_order">
+                <h4>Доставка</h4>
+
+                <form class="form-horizontal">
+
+                <div class="dropdown_input row">
+                    <label class="col-sm-5 col-xs-12 control-label">Страна:</label>
+
+                    <div class="col-sm-7 col-xs-12">
+                    <button class="btn btn-default dropdown-toggle form-control" type="button" data-toggle="dropdown"><span class="caret_arrow"></span>
+                        Казахстан
+
+                    </button>
+
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown_input row">
+                    <label class="col-sm-5 col-xs-12 control-label">Город:</label>
+
+                    <div class="col-sm-7 col-xs-12 dropdown">
+                    <button class="btn btn-default dropdown-toggle form-control" type="button" data-toggle="dropdown"><span class="caret_arrow"></span>
+                        Астана
+                        </button>
+
+
+                    <ul class="dropdown-menu">
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                    </ul>
+                    </div>
+                </div>
+
+                <div class="dropdown row">
+                    <label class="col-sm-5 col-xs-12 control-label">Дата*:</label>
+
+
+                    <form class="">
+                        <div class="form-group date col-sm-7 col-xs-12">
+                            <div class="input-group col-sm-7 col-xs-12">
+                                <input type="text" class="form-control calendar" id="datetimepicker6" />
+
+                        </div>
+                        </div>
+                    </form>
+
+
+                </div>
+                    </form>
+</div>
+
+
+        <script type="text/javascript">
+            $(function () {
+                $('#datetimepicker6').datetimepicker(
+                        {language: 'ru'}
+                );
+            });
+        </script>
+
+
+
+
+            <div class="col-lg-6 col-sm-6 col-md-6 col-xs-12 delivery_left_order delivery_right_order">
+                <h4>Открытка</h4>
+
+                    <p>Без подписи доставка будет анонимной</p>
+
+                <form class="form-horizontal">
+
+                    <div class="dropdown_input row">
+
+                        <div class="col-sm-7 dropdown">
+                            <button class="btn btn-default dropdown-toggle form-control" type="button" data-toggle="dropdown"><span class="caret_arrow"></span>
+                                Повод
+
+                            </button>
+
+
+                            <ul class="dropdown-menu">
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                <div class="row">
+                    <div class="col-sm-7">
+                    <textarea type="address" class=" form-control form-control_address" placeholder="Куда доставить?" rows="4"></textarea>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <div class="col-sm-10">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox">С условиями ознакомлен и согласен
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                </form>
+            </div>
+
+
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 payment_method">
+            <h4>Выберите способ оплаты:</h4>
+
+            <div class="radio radio_top">
+                <label>
+                    <span class="mastercard"></span>
+                    <input type="radio" name="optionsRadios" value="option3">
+                    Visa / Master Cart
+
+                </label>
+
+            </div>
+
+            <div class="radio radio_down">
+                <label>
+                    <input type="radio" name="optionsRadios" value="option3">
+                    Pay Pal
+                </label>
+            </div>
+
+            <a class="btn btn-primary" href="">Оплатить</a>
+
+        </div>
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 add_gift">
+                <h4>Добавьте к цветам подарок</h4>
+
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/bear.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/balloon.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/bear.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/balloon.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/fruit.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+                <div class="product_card col-lg-2 col-md-2 col-sm-4 col-xs-12">
+                    <img class="product_card_page" alt="" src="img/rafael.png">
+                    <a class="btn-link" href="">Украшение для букета</a>
+                    <div class="button_down">
+                        <p>
+                            15 000
+                            <span>тг</span>
+                        </p>
+                        <a class="btn-primary">
+                            <span>+</span>
+                            Добавить
+                        </a>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<section class="distribution">
+    <div class="container">
+        <div class="row">
+            <div class="distribution_form col-lg-10 col-lg-offset-2 col-md-11 col-md-offset-1 col-sm-12 col-xs-12">
+
+                <div class="text_distribution">
+                    <p>Подпишитесь на рассылку</p>
+                </div>
+
+                <div class="autocomplete col-lg-6 col-md-6 col-sm-7 col-xs-11" data-autocomplete="header-search" data-autocomplete-url="">
+                    <div class="autocomplete__element">
+                        <form action="" method="GET">
+                            <div class="input-group">
+                                <input class="form-control input_search" type="text" data-autocomplete-input="" name="text" autocomplete="off" placeholder="" value="" required="">
+                                    <span class="input-group-btn">
+                                        <button class="btn btn-default" type="submit">
+                                            Ок
+                                        </button>
+                                    </span>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+
+            </div>
+
+
+
+
+        </div>
+    </div>
+</section>
+
+
+
+<footer>
+    <div class="container">
+        <div class="row">
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 flow">
+                 © 1-2-flowers
+            </div>
+
+            <div class="links_box col-lg-3 col-lg-push-5 col-md-3 col-md-push-5 col-sm-5 col-sm-push-4 col-xs-8 col-xs-push-4 row">
+                <div class="links">
+                    <a class="" href=""><div class="one"></div></a>
+                    <a class="" href=""><div class="two"></div></a>
+                    <a class="" href=""><div class="three"></div></a>
+                    <a class="" href=""><div class="four"></div></a>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="left_text col-lg-3 col-md-3 col-sm-5 col-xs-12">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">О нас</a>
+                        </li>
+                        <li>
+                            <a href="">Доставка, оплата, гарантии</a>
+                        </li>
+                        <li>
+                            <a href="">Партнеркая программа</a>
+                        </li>
+                        <li>
+                            <a href="">Вакансии</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="text_footer col-lg-6 col-md-6 col-sm-7 col-xs-12">
+                <p>Доставляем по всему Казахстану:</p>
+                <p>Астана,  Алматы,  Актобе,  Атырау,  Караганда,  Актау,  Павлоград, </p>
+                <p>Усть-Каменогорск,  Уральск,  Чимкент,  Кызылорда,  Петропавловск</p>
+                <p>Тараз,  Костанай</p>
+            </div>
+            <div class="menu_next col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="">Частые вопросы</a>
+                        </li>
+                        <li>
+                            <a href="">Блог</a>
+                        </li>
+                        <li>
+                            <a href="">Найти местного флориста</a>
+                        </li>
+                        <li>
+                            <a href="">Карта сайта</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
+
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 down_text">
+                 © 2016 Cvety. Заказ и доставка свежих цветов по Астане и всему Казахстану
+            </div>
+
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
